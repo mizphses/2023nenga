@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       title: '2023年 寒中お見舞い',
       meta: [
         { name: 'description', content: '2023年の寒中お見舞い' },
-        { name: 'og:title', content: 'mizphses.comから寒中お見舞いのご挨拶' },
+        { name: 'og:title', content: '寒中見舞サイト | mizphses.com' },
         { name: 'og:description', content: 'mizphses.comから寒中お見舞いのご挨拶' },
         { name: 'og:site_name', content: 'mizphses.com' },
         { name: 'og:url', content: 'https://2023nenga.mizphses.com' },
