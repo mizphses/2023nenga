@@ -26,7 +26,7 @@ const activities = [
   {"image": "/9-1.JPG", "title": "ボストン研修（Global FLP）", "body": "ボストンに大学の研修で行ってきました．写真はエジプト人男性の阿部寛．"},
   {"image": "/9-2.JPG", "title": "引っ越し", "body": "旧居から引っ越しました．新居は防音性が高いです．"},
   {"image": "/11-1.JPG", "title": "トド岩", "body": "小春六花のヨーグルトを食べると島流しにされます．（札幌旅行で行ってきた）"},
-  {"image": "/12-1.JPG", "title": "来年の抱負", "body": "写真のYogibo(1年半使った)のようにダラダラした1年でした．来年は色々作ります．"}
+  {"image": "/12.JPG", "title": "来年の抱負", "body": "写真のYogibo(1年半使った)のようにダラダラした1年でした．来年は色々作ります．"}
   ]
 const randomnum = Math.floor( Math.random() * 10 );
 </script>
