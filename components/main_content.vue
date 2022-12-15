@@ -5,7 +5,7 @@
     </div>
     <div v-for="(data, index) in activities" :key="data.title">
       <div class="nakami-top" :style="{backgroundImage: `url(${data['image']})`, backgroundSize: 'cover'}" v-if="index == randomnum">
-        <img src="@/assets/images/title.svg" alt="寒中お見舞い申し上げます" class="title_text" />
+        <a href="#" @click="doReload()"><img src="@/assets/images/title.svg" alt="寒中お見舞い申し上げます" class="title_text" /></a>
         <div class="nakami-setumei">
           <p class="titleline">{{data["title"]}}</p>
           <p>{{data["body"]}}</p>
@@ -29,6 +29,7 @@ const activities = [
   {"image": "/12.jpg", "title": "来年の抱負", "body": "写真のYogibo(1年半使った)のようにダラダラした1年でした．来年は色々作ります．"}
   ]
 const randomnum = Math.floor( Math.random() * 10 );
+const doReload = () => window.location.reload();
 </script>
 
 <style lang="scss" scoped>
@@ -87,7 +88,7 @@ const randomnum = Math.floor( Math.random() * 10 );
 }
   .nakami-top::before {
     content: '';
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 0;
     left: 0;
